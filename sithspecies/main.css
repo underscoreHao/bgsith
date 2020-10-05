@@ -1,0 +1,8 @@
+td, p, blockquote, ol, li, ul	{  font-family: Verdana; font-size: 10px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; text-transform: none; color: #ffffff; text-decoration: none}
+a 				{  font-family: Verdana; font-size: 10px; font-style: normal; line-height: normal; font-weight: bold; font-variant: normal; text-transform: none; color: #ffffff; text-decoration: none}
+A:link          {BACKGROUND: none; COLOR: #ff0000; FONT-SIZE: 10px; FONT-FAMILY: Verdana, sans-serif; TEXT-DECORATION: none}
+A:active        {BACKGROUND: none; COLOR: #ffffff; FONT-SIZE: 10px; FONT-FAMILY: Verdana, sans-serif; TEXT-DECORATION: none}
+A:visited       {BACKGROUND: none; COLOR: #ff0000; FONT-SIZE: 10px; FONT-FAMILY: Verdana, sans-serif; TEXT-DECORATION: none}
+A:hover         {BACKGROUND: none; COLOR: #ffffff; FONT-SIZE: 10px; FONT-FAMILY:  Verdana, Helvetica, sans-serif; text-decoration: none}
+
+body {BACKGROUND-ATTACHMENT: fixed; BACKGROUND-IMAGE: url("../razshirenie/stars.jpg"/*tpa=http://bgsith.org/razshirenie/stars.jpg*/); BACKGROUND-REPEAT: yes}

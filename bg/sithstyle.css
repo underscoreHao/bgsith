@@ -1,0 +1,258 @@
+td, p, blockquote, ol, li, th 
+{
+text-align: justify;
+font-size: 12px;
+font-family:Verdana,Arial,Helvetica,sans-serif; 
+color: #c0c0c0 ;
+}
+
+
+body {background-color:#000000; 
+color: #c0c0c0; 
+background-image: url("background.gif"/*tpa=http://bgsith.org/bg/background.gif*/);
+font-family:Verdana,Arial,Helvetica,sans-serif;
+font-size: 12px;
+BACKGROUND-ATTACHMENT: fixed;}
+
+
+a {  
+font-weight: bold;  
+text-decoration: none}
+
+
+
+a:link {color:#8D0404; text-decoration: none;}
+a:visited {color:#8D0404; text-decoration: none;}
+a:hover { color:#FFFFFF; text-decoration: none;}
+a:active {color: #FF0000; text-decoration: none;} 
+
+ul {list-style-type:circle; }
+
+
+.zagla {
+text-align:center; 
+font-size: 18px;
+font-weight: bold;
+ }
+ 
+.podzagla {
+ font-weight: bold;
+ font-size: 14px;
+ color: #8F5B3C;
+ }
+
+.zagla2 {
+font-weight: bold;
+color: #8F5B3C;
+font-size: 12px; }
+
+.podpis {
+font-weght: bold;
+color: #8D0404;
+font-size: 12px;
+text-align: center;
+background-color: #000000; }
+
+.izto {
+font-weight: bold;
+color: #8F5B3C;
+font-size: 10px;
+text-align: right; }
+
+.krai {
+text-align:center;
+font-size: 10px;
+font-weight: bold;
+color: #8D0404; }
+
+
+.quote {
+text-align:justify;
+font-size: 11px;
+font-style: italic;
+color: #8F5B3C; }
+
+.tablica {
+text-align: center;
+font-weight: bold;
+font-size: 11px; 
+color: #8F5B3C;
+}
+
+.banners {
+text-align: center;
+}
+.tablica2 {
+text-align: left;
+font-weight: bold;
+font-size: 10px;
+}
+
+.tablica3 {
+text-align: left;
+font-size: 10px;
+}
+
+
+
+a#button1 {
+    display: block;
+    width: 105px;
+    height: 32px;
+    background-image: url("buttons/purwi.png"/*tpa=http://bgsith.org/bg/buttons/purwi.png*/);
+    margin: 0 auto;
+}
+a#button1:hover {
+    background-image: url("buttons/purwi2.png"/*tpa=http://bgsith.org/bg/buttons/purwi2.png*/);
+}
+a .alt { display: none; }
+
+a#button2 {
+    display: block;
+    width: 105px;
+    height: 32px;
+    background-image: url("buttons/wtori.png"/*tpa=http://bgsith.org/bg/buttons/wtori.png*/);
+    margin: 0 auto;
+}
+a#button2:hover {
+    background-image: url("buttons/wtori2.png"/*tpa=http://bgsith.org/bg/buttons/wtori2.png*/);
+}
+a .alt { display: none; }
+
+a#button3 {
+    display: block;
+    width: 105px;
+    height: 32px;
+    background-image: url("buttons/treti.png"/*tpa=http://bgsith.org/bg/buttons/treti.png*/);
+    margin: 0 auto;
+}
+a#button3:hover {
+    background-image: url("buttons/treti2.png"/*tpa=http://bgsith.org/bg/buttons/treti2.png*/);
+}
+a .alt { display: none; }
+
+a#button4 {
+    display: block;
+    width: 105px;
+    height: 32px;
+    background-image: url("buttons/chetw.png"/*tpa=http://bgsith.org/bg/buttons/chetw.png*/);
+    margin: 0 auto;
+}
+a#button4:hover {
+    background-image: url("buttons/chetw2.png"/*tpa=http://bgsith.org/bg/buttons/chetw2.png*/);
+}
+a .alt { display: none; }
+
+a#button5 {
+    display: block;
+    width: 105px;
+    height: 32px;
+    background-image: url("buttons/peti.png"/*tpa=http://bgsith.org/bg/buttons/peti.png*/);
+    margin: 0 auto;
+}
+a#button5:hover {
+    background-image: url("buttons/peti2.png"/*tpa=http://bgsith.org/bg/buttons/peti2.png*/);
+}
+a .alt { display: none; }
+
+a#button6 {
+    display: block;
+    width: 105px;
+    height: 32px;
+    background-image: url("buttons/shesti.png"/*tpa=http://bgsith.org/bg/buttons/shesti.png*/);
+    margin: 0 auto;
+}
+a#button6:hover {
+    background-image: url("buttons/shesti2.png"/*tpa=http://bgsith.org/bg/buttons/shesti2.png*/);
+}
+a .alt { display: none; }
+
+a#button7 {
+    display: block;
+    width: 105px;
+    height: 32px;
+    background-image: url("buttons/sedmi.png"/*tpa=http://bgsith.org/bg/buttons/sedmi.png*/);
+    margin: 0 auto;
+}
+a#button7:hover {
+    background-image: url("buttons/sedmi2.png"/*tpa=http://bgsith.org/bg/buttons/sedmi2.png*/);
+}
+a .alt { display: none; }
+
+a#button8 {
+    display: block;
+    width: 105px;
+    height: 32px;
+    background-image: url("buttons/osmi.png"/*tpa=http://bgsith.org/bg/buttons/osmi.png*/);
+    margin: 0 auto;
+}
+a#button8:hover {
+    background-image: url("buttons/osmi2.png"/*tpa=http://bgsith.org/bg/buttons/osmi2.png*/);
+}
+a .alt { display: none; }
+
+
+a#button9 {
+    display: block;
+    width: 105px;
+    height: 32px;
+    background-image: url("buttons/deweti.png"/*tpa=http://bgsith.org/bg/buttons/deweti.png*/);
+    margin: 0 auto;
+}
+a#button9:hover {
+    background-image: url("buttons/deweti2.png"/*tpa=http://bgsith.org/bg/buttons/deweti2.png*/);
+}
+a .alt { display: none; }
+
+
+a#button10 {
+    display: block;
+    width: 105px;
+    height: 32px;
+    background-image: url("buttons/deseti.png"/*tpa=http://bgsith.org/bg/buttons/deseti.png*/);
+    margin: 0 auto;
+}
+a#button10:hover {
+    background-image: url("buttons/deseti2.png"/*tpa=http://bgsith.org/bg/buttons/deseti2.png*/);
+}
+a .alt { display: none; }
+
+
+a#button11 {
+    display: block;
+    width: 105px;
+    height: 32px;
+    background-image: url("buttons/edina.png"/*tpa=http://bgsith.org/bg/buttons/edina.png*/);
+    margin: 0 auto;
+}
+a#button11:hover {
+    background-image: url("buttons/edina2.png"/*tpa=http://bgsith.org/bg/buttons/edina2.png*/);
+}
+a .alt { display: none; }
+
+
+
+a#button12 {
+    display: block;
+    width: 105px;
+    height: 32px;
+    background-image: url("buttons/forum.png"/*tpa=http://bgsith.org/bg/buttons/forum.png*/);
+    margin: 0 auto;
+}
+a#button12:hover {
+    background-image: url("buttons/forum2.png"/*tpa=http://bgsith.org/bg/buttons/forum2.png*/);
+}
+a .alt { display: none; }
+
+a#button13 {
+    display: block;
+    width: 105px;
+    height: 32px;
+    background-image: url("buttons/links.png"/*tpa=http://bgsith.org/bg/buttons/links.png*/);
+    margin: 0 auto;
+}
+a#button13:hover {
+    background-image: url("buttons/links2.png"/*tpa=http://bgsith.org/bg/buttons/links2.png*/);
+}
+a .alt { display: none; }
+

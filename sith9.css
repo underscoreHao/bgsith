@@ -1,0 +1,15 @@
+p {
+text-align: center ;
+font-size: 9px ;
+font-family: Verdana; sans-serif;
+color: #8F5B3C;
+font-weight: bold;  }
+body { background-color: black; }
+
+a { font-weight: bold; }
+
+a:link {color:#FF0000; text-decoration: none;}
+a:visited {color:#FF0000; text-decoration: none;}
+a:hover { color:#FFFFFF; text-decoration: none;}
+a:active {color: #FF0000; text-decoration: none;}
+
