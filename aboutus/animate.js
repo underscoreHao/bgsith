@@ -1,4 +1,4 @@
-<!--
+// <!--
 	// See KB article about changing this dynamic HTML
 	dynamicanimAttr = "dynamicanimation"
 	animCancel = "skipanim"
@@ -29,7 +29,7 @@
 		outEffect=0
 	}
 	function dynAnimation(obj)
-	{		
+	{
 		animateElements = new Array()
 		var ms = navigator.appVersion.indexOf("MSIE")
 		var macness = navigator.appVersion.indexOf("Macintosh")
@@ -182,7 +182,7 @@
 				else if(animation == "flyBottom" || animation == "elasticBottom")
 				{
 					elprops.posLeft = 0
-					elprops.posTop = scrollOffsetTop-offsetTop(el)+docHeight 
+					elprops.posTop = scrollOffsetTop-offsetTop(el)+docHeight
 				}
 				else if(animation == "flyTopLeft")
 				{
@@ -197,8 +197,8 @@
 				else if(animation == "flyCorner")
 				{
 					elprops.posLeft = docWidth*0.2-offsetLeft(el)
-					
-					elprops.posTop = scrollOffsetTop-offsetTop(el)+docHeight 
+
+					elprops.posTop = scrollOffsetTop-offsetTop(el)+docHeight
 				}
 				else if(animation == "flyBottomLeft")
 				{
@@ -325,7 +325,7 @@
 			x = el.pageX
 			return x
 		}
-	} 
+	}
 	function offsetTop(el)
 	{
 		if(ie4 || ns6)
@@ -338,7 +338,7 @@
 		else
 		{
 			y = el.pageY
-			return y	
+			return y
 		}
 	}
 	function startWord(ih, i)
@@ -406,7 +406,7 @@
 			else
 				outString += "<SPAN ID=\"" +  fpanimationPrefix + anim + "RFP\" style=\"position: relative;  visibility: hidden;\">"
 		}
-			
+
 		outString += ih.substring(i1, i2)
 		if(dyn)
 			outString += "</SPAN>"
@@ -527,7 +527,7 @@
 						el.setAttribute("style",str);
 					}
 					else{
-						elprops.clip.bottom=step/steps*el.sizeH		
+						elprops.clip.bottom=step/steps*el.sizeH
 					}
 				}
 			}
@@ -545,7 +545,7 @@
 						postop = elprops.top
 						posleft = elprops.left
 						str="position:absolute;top:"+postop+";left:"+posleft+";clip:rect(0px "+ el.offsetWidth/2*(1+step/steps) + "px "+el.offsetHeight+"px "+el.offsetWidth/2*(1-step/steps)+"px)";
-						el.setAttribute("style",str);	
+						el.setAttribute("style",str);
 					}
 					else{
 						elprops.clip.right=el.sizeW/2*(1+step/steps)
@@ -582,7 +582,7 @@
 				elprops.posLeft = elprops.posLeft + dl
 				elprops.posTop = elprops.posTop + dt
 			}
-			if (step >= steps) 
+			if (step >= steps)
 			{
 				if(!(animation == "wipeLR"	||
 					animation  == "wipeTB"	||
@@ -616,7 +616,7 @@
 			{
 				if(animOut)
 					window.setTimeout("animate(1);", speed, "Javascript")
-				else					
+				else
 					window.setTimeout("animate(0);", speed, "Javascript")
 			}
 			else
